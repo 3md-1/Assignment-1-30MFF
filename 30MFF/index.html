@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape from NYUAD</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pixel-overlay"></div>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About the Film</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 class="main-title">Escape from NYUAD</h1>
+            <div class="video-container">
+                <!-- This is the updated YouTube embed code -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1Gwj5zYRlKM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="tagline">Walk as far as you can before the signal cuts out.</p>
+
+            <div class="slider-container">
+                <label for="pixel-slider">Pixelation</label>
+                <input type="range" min="1" max="50" value="5" class="slider" id="pixel-slider">
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About the Film</h2>
+            <div class="text-box">
+                <p>
+                    "Escape from NYUAD" is a short film that explores themes of isolation, connection, and the digital tether that binds us. Shot on location, the film follows a protagonist's journey to break free from a monotonous cycle, only to find that the very technology meant to connect us can also be a cage. The narrative is a commentary on our reliance on digital infrastructure and the bittersweet freedom that comes with its absence.
+                </p>
+            </div>
+        </section>
+
+        <section id="bio" class="content-section">
+            <h2>Creator Bio</h2>
+            <div class="text-box">
+                <img src="https://placehold.co/150x150/333333/e0e0e0?text=Ahmed" alt="Ahmed Bilal" class="bio-pic">
+                <h3>Ahmed Bilal, creator of Escape from NYUAD</h3>
+                <p>
+                    Ahmed Bilal is an emerging filmmaker and digital artist based in Abu Dhabi. A recent graduate, his work often delves into the intersection of technology, society, and the human condition. "Escape from NYUAD" is his debut short film, born from late-night thoughts and an ever-dwindling Wi-Fi signal. He is passionate about telling stories that resonate with the modern experience and challenge viewers' perceptions of the world around them.
+                </p>
+            </div>
+        </section>
+
+        <section id="reviews" class="content-section">
+            <h2>Reviews</h2>
+            <div class="text-box">
+                <div class="review">
+                    <h4>★★★★★ A hauntingly beautiful metaphor</h4>
+                    <p class="review-author">Posted by: Cinephile21</p>
+                    <p>This film really stuck with me. The slow, deliberate pacing and the stark visuals perfectly capture the feeling of being trapped in a golden cage. The ending is ambiguous in the best way possible. A must-watch for anyone who's ever felt a little too connected.</p>
+                </div>
+                <div class="review">
+                    <h4>★★★★☆ Made me want to turn my phone off</h4>
+                    <p class="review-author">Posted by: TechSavvyTom</p>
+                    <p>As someone who works in tech, this hit close to home. The concept is simple but so effective. The pixelation effect as the signal fades is genius. My only critique is that I wanted more! Hopefully, a feature-length version is in the works.</p>
+                </div>
+                <div class="review">
+                    <h4>★★★☆☆ Interesting concept, a bit slow</h4>
+                    <p class="review-author">Posted by: JustAnotherViewer</p>
+                    <p>I liked the idea behind it, but it was a little slow for my taste. The visuals are cool, and the main actor did a good job. It's a solid student film with a lot of potential.</p>
+                </div>
+                 <div class="review">
+                    <h4>★★★★★ An artistic triumph!</h4>
+                    <p class="review-author">Posted by: ArtHouseFan</p>
+                    <p>Forget blockbusters, this is cinema. A poignant and timely piece that says so much without needing much dialogue. The sound design is incredible and adds to the sense of dread and isolation. Bilal is a director to watch.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
